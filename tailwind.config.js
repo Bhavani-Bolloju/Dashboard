@@ -11,6 +11,22 @@ export default {
       }
     }
   },
-  plugins: []
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".after-element": {
+          content: '""',
+          display: "block",
+          position: "absolute",
+          width: "100%",
+          height: "100%"
+
+          // backgroundColor: "red"
+        }
+      };
+
+      addUtilities(newUtilities, ["after"]);
+    }
+  ]
 };
 
