@@ -2,7 +2,7 @@
 
 function Sidebar() {
   return (
-    <div className="bg-white ml-5 rounded-md p-5 flex flex-col items-center">
+    <div className="bg-white ml-5 rounded-md p-5 pb-12 flex flex-col items-center">
       <button className="flex gap-2 items-center self-start text-gray-600">
         <span>
           <svg
@@ -29,7 +29,7 @@ function Sidebar() {
       <div className="w-28 h-28 bg-gray-200 mt-32"></div>
       <div className="mt-16 flex flex-col gap-2">
         <button className="flex items-center gap-4 p-3 px-5 bg-gray-200 rounded-full">
-          <span className="w-4 h-4 rounded-full bg-blue-500 border block after:after-element relative after:rounded-full after:top-0 after:left-0 after:scale-150 after:border after:border-blue-500"></span>
+          <span className="w-4 h-4 rounded-full bg-blue-500 border block after:after-element relative"></span>
           <span className="text-blue-500 text-sm">Land & boundaries</span>
         </button>
         <span className="w-[2px] h-8 bg-gray-400 block self-center"></span>

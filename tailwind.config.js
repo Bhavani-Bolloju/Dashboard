@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
-        layout: "300px 1fr"
+        layout: "300px 1fr",
+        "form-layout": "40% 1fr"
       },
       gridTemplateRows: {
         layout: "80px 1fr"

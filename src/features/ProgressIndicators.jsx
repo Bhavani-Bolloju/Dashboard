@@ -8,7 +8,7 @@ function ProgressIndicators() {
   const incomplete = `${btnClass} bg-white border-gray-500`;
 
   return (
-    <div className="flex items-center flex-wrap gap-3 border-b pb-5 mb-10">
+    <div className="flex items-center flex-wrap gap-3 border-b border-gray-300 pb-5 mb-10">
       <button className={complete}>
         <span className="w-5 h-5 rounded-full bg-green-500 border block  relative after:after-element-tick after:content-['\2713'] after:text-white after:top-0 after:left-0 after:text-xs after:font-bold"></span>
         <span className="text-green-600 text-sm">Land images</span>
