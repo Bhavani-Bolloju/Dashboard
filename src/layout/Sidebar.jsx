@@ -22,7 +22,7 @@ function Sidebar() {
         </span>
         <span>Dashboard</span>
       </button>
-      <div className="flex flex-col text-center mt-5 border-t-2 pt-10 gap-1">
+      <div className="flex flex-col text-center mt-5 border-t-2 w-full pt-10 gap-1">
         <span className="text-sm font-thin">Farmland ID:</span>
         <span className="text-2xl">GLCSOS 01</span>
       </div>
