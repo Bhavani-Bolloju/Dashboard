@@ -16,7 +16,7 @@ function SurveyForm() {
           </label>
         </div>
         <div className="flex items-center gap-2 mb-2">
-          <input type="radio" id="gov" name="survey" />
+          <input type="radio" id="gov" name="survey" checked />
           <label className="capitalize font-medium" for="gov">
             government survey report
           </label>

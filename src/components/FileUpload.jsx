@@ -38,7 +38,7 @@ const FileUpload = function ({ onUpload }) {
           </p>
         </p>
       </div>
-      <div className="flex w-full justify-between mt-2 text-sm text-gray-400">
+      <div className="flex w-full justify-between font-thin mt-2 text-sm text-gray-400">
         <span>Format: PDF</span>
         <span>Maximum size: 10 MB</span>
       </div>
